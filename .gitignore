@@ -1,0 +1,18 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+GoogleService-Info.plist
+GoogleService-Info*.plist
+AppHost/GoogleService-Info.plist
+
+
+
+# Local AI skills and tools
+/.agent/
+/.agents/
+/.claude/
+/.codex/
+/.gemini/
+/.impeccable/

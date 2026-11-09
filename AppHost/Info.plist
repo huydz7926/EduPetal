@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>vi</string>
+	<key>CFBundleDisplayName</key>
+	<string>EduPetal</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>EduPetal cần quyền truy cập Camera để chụp ảnh minh chứng buổi dạy học.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>EduPetal cần quyền truy cập Thư viện ảnh để chọn ảnh đại diện cho giáo viên và học sinh.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>EduPetal cần quyền lưu ảnh minh chứng và mã QR thanh toán vào Thư viện ảnh.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>EduPetal sử dụng Face ID để xác thực nhanh và an toàn khi đăng nhập bằng tài khoản Apple / iOS.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.edupetal.app.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.edupetal.app</string>
+				<string>app-1-491580800757-ios-fe0f62fbc34298d9ba4fbc</string>
+				<string>com.googleusercontent.apps.491580800757-mf5ikaep461rl2q3omrrc4dnq61u03e3</string>
+				<string>com.googleusercontent.apps.491580800757</string>
+			</array>
+		</dict>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BeVietnamPro-Regular.ttf</string>
+		<string>BeVietnamPro-Medium.ttf</string>
+		<string>BeVietnamPro-SemiBold.ttf</string>
+		<string>BeVietnamPro-Bold.ttf</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
+
